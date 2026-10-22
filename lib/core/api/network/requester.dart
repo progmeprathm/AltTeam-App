@@ -209,6 +209,3 @@ class Requester {
   Future<Map<String, dynamic>> delete(String endpoint, {dynamic body, Map<String, String>? headers}) =>
       request('DELETE', endpoint, body: body, extraHeaders: headers);
 }
-  Future<Map<String, dynamic>> delete(String endpoint, {dynamic body, Map<String, String>? headers}) =>
-      request('DELETE', endpoint, body: body, extraHeaders: headers);
-}
